@@ -19,9 +19,8 @@
                             src="https://ddk0b51k9qpea.cloudfront.net/public-resources/icons/logo(aurum).svg"
                             alt="Wisex-LOGO" />
                         <div>
-                            <a class="LoginHeaderButton HeaderButton"
-                                href="https://aurumwisex.com/partner/login">Login</a>
-                            <a class="signupHeaderButton HeaderButton" href="https://aurumwisex.com/partner/register">
+                            <a class="LoginHeaderButton HeaderButton" href="login">Login</a>
+                            <a class="signupHeaderButton HeaderButton" href="register">
                                 Sign Up</a>
                         </div>
 
@@ -52,9 +51,9 @@
                             <h2 class="for-you">For You</h2>
                             <div class="lucrative-upfront-commission-container">
                                 <p class="lucrative-upfront-commission">
-                                    Lucrative Upfront Commission
+                                    Upfront Commission
                                 </p>
-                                <p class="digital-seamless">Digital & Seamless</p>
+                                <p class="digital-seamless">Digital & Seamless Onboarding</p>
                                 <p class="new-age-investment-products">
                                     New-Age Investment Products
                                 </p>
@@ -66,10 +65,10 @@
                                 <p class="up-to-17">Up to 17% Pre-Tax IRR</p>
                                 <p class="wide-range-of">Wide Range of Products</p>
                                 <p class="minimum-investment-15">
-                                    Minimum Investment ₹15 00,000
+                                    Minimum Investment ₹25 00,000
                                 </p>
                                 <p class="non-market-linked-products">
-                                    Non-Market Linked Products
+                                    Non-Market Linked Investments
                                 </p>
                             </div>
                             <h2 class="for-your-clients">For Your Clients</h2>
@@ -754,8 +753,7 @@
                                                             <div class="">
                                                                 <div class=""></div>
                                                             </div>
-                                                        </div><button class="style-40" tabindex="0" type="button">View
-                                                            Details<span class="style-41"></span></button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -813,8 +811,7 @@
                                                             <div class="">
                                                                 <div class=""></div>
                                                             </div>
-                                                        </div><button class="style-73" tabindex="0" type="button">View
-                                                            Details<span class="style-74"></span></button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -874,8 +871,7 @@
                                                             <div class="">
                                                                 <div class=""></div>
                                                             </div>
-                                                        </div><button class="style-106" tabindex="0" type="button">View
-                                                            Details<span class="style-107"></span></button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -902,7 +898,8 @@
                     </div>
                     <button class="frame-button">
                         <div class="frame-child4"></div>
-                        <b class="become-a-partner">Become a Partner</b>
+                        <a href="register" style="text-decoration: none;"><b class="become-a-partner">Become a
+                                Partner</b></a>
                     </button>
                 </div>
             </section>
@@ -936,29 +933,37 @@
                                     <div class="">
                                         <p class="style-13">Quick Links</p>
                                         <div class="style-14">
-                                            <div class="style-15"><a class="style-16" href="/">About Us</a></div>
-                                            <div class="style-17"><a class="style-18" href="/">FAQs</a></div>
-                                            <div class="style-19"><a class="style-20" href="/">Portfolio Management
-                                                    Services</a>
+                                            <div class="style-15"><a class="style-16"
+                                                    href="<?= $baseUrl ?>/about-us">About Us</a></div>
+                                            <div class="style-17"><a class="style-18" href="<?= $baseUrl ?>/faq>FAQs</a></div>
+                                            <div class=" style-19"><a class="style-20"
+                                                        href="<?= $baseUrl ?>/products/cream-pms">Portfolio Management
+                                                        Services</a>
                                             </div>
-                                            <div class="style-21"><a class="style-22" href="/">Newsroom</a></div>
-                                            <div class="style-23"><a class="style-24" href="/">Blogs</a></div>
-                                            <div class="style-25"><a class="style-26" href="/">Fractional Ownership</a>
+                                            <div class="style-21"><a class="style-22"
+                                                    href="<?= $baseUrl ?>/news-room">Newsroom</a></div>
+                                            <div class="style-23"><a class="style-24"
+                                                    href="<?= $baseUrl ?>/blogs">Blogs</a></div>
+                                            <div class="style-25"><a class="style-26"
+                                                    href="<?= $baseUrl ?>/products/fractional-ownership">Fractional
+                                                    Ownership</a>
                                             </div>
-                                            <div class="style-27"><a class="style-28" href="/">Contact Us</a></div>
-                                            <div class="style-29"><a class="style-30" href="/">Securitised Debt
+                                            <div class="style-27"><a class="style-28"
+                                                    href="<?= $baseUrl ?>/contact-us">Contact Us</a></div>
+                                            <div class="style-29"><a class="style-30"
+                                                    href="<?= $baseUrl ?>/products/sdi">Securitised Debt
                                                     Instruments</a>
                                             </div>
-                                            <div class="style-31"><a class="style-32" href="/">Corporate Bonds</a></div>
+                                            <div class="style-31"><a class="style-32"
+                                                    href="<?= $baseUrl ?>/products/corporate-bonds">Corporate Bonds</a>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="">
+                                    <!-- <div class="">
                                         <p class="style-33">Newsletter</p>
-                                        <div class="style-34"><input class="style-35"
-                                                placeholder="Enter your email here" /><button class="style-36"
-                                                tabindex="0" type="button">Next<span class="style-37"></span></button>
+                                        <div class="style-34"><input class="style-35" placeholder="Enter your email here" /><button class="style-36" tabindex="0" type="button">Next<span class="style-37"></span></button>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -997,7 +1002,6 @@
                         </div>
                     </div>
                 </div>
-
             </section>
 
         </section>
